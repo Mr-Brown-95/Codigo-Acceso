@@ -31,7 +31,7 @@ char password[5];
 
 void setup() {
      //ubicacion de la eeprom, valor a guardar
-  EEPROM.put(passwordAddress, addPassword); 
+  //EEPROM.put(passwordAddress, addPassword); 
   
   //ubicacion de la eeprom, se obtiene valor y se guarda en la variable password
   EEPROM.get(passwordAddress, password);
